@@ -1,0 +1,104 @@
+:root {
+    --main-clr: #E6E6FA;
+    --hdrs-clr: #5f27cd;
+    --bckgrnd-clr: #a29bfe;
+    }
+    
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+    /* wireframing for me */
+    /* border : red solid 1px; */
+}
+
+body {
+    padding-top: 80px;
+    background-color: var(--main-clr);
+}
+
+h1 {
+    margin: 20px 0;
+    color: var(--hdrs-clr)
+}
+
+h2 {
+    color: var(--hdrs-clr); 
+}
+
+p {
+    margin: 20px 0;
+}
+
+header {
+    display: inline;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.navigation {
+    padding: 25px;
+    text-align: right;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: var(--bckgrnd-clr);
+    color: var(--main-clr);
+}
+
+ul li {
+    display: inline;
+}
+
+main {
+    text-align: center;
+}
+
+.info-img {
+    display: block;
+    width: 20%;
+    height: auto;
+    margin: auto;
+}
+
+.header nav ul {
+    list-style-type: none;
+}
+
+section {
+    padding: 10px;
+}
+
+#horiseon {
+    width: 30%;
+}
+
+#contact form {
+    width: 30%;
+    margin: auto;
+}
+
+#contact form input,
+#contact form label {
+    display: block;
+    margin: 5px;
+}
+
+#contact form input {
+    width: 100%;
+}
+
+button {
+    width: 20%;
+    color: var(--hdrs-clr);
+    border-radius: 15%;
+}
+
+footer {
+    padding: 10px;
+    background: var(--bckgrnd-clr);
+    color: var(--main-clr);
+    text-align: center;
+}
+
