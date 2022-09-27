@@ -9,59 +9,52 @@
   </head>
 
   <body>
-    <!-- header with a nav -->
+<!-- header with a navigation menu and links to my story, my peork, and how to contact-->
     <header>
       <nav class="navigation">
-        <ul class="nav-bar">
-          <li><a href="#content__portfolio">portfolio</a></li>
+        <ul class="nav__menu">
+          <li><a href="#my-work__content">portfolio</a></li>
           <li><a href="./asset/malvina-hasa_first-draft_resume.pdf" target="_blank">resume</a></li>
-          <li><a href="#content__my-story">my story</a></li>
-          <li><a href="#content__contact">contact</a></li>
+          <li><a href="#my-story__content">my story</a></li>
+          <li><a href="#contact__content">contact</a></li>
         </ul>
       </nav>
     </header>
+
+<!-- main content with titled images linked to deployed applications -->
     <main>   
-      <!-- main with an image and caption -->
-      <!-- contact section with an email form -->
-     <section id="info">
+     <section class="info__content">
       <h1 class="header">Malvina Hasa</h1>
-      <img class="info-img" src="./asset/img/resumeimage.JPG" alt="personal portrait">
-      <p>hey...</p>
+      <img class="info__img" src="./asset/img/resumeimage.JPG" alt="personal portrait">
+      <p class="greetings">hey...</p>
      </section>
-     <section class="content">
+     <section id="my-story__content" class="my-story__content">
       <h2>my story</h2>
-      <p id="content__my-story">If you know me you already know that I love to learn and study. I
-        f you don't, my name is Malvina (she/her), and this is my personal resume website. 
-         My main focus on this webpage is to showcase my progress in learning and further 
-         developing full stack techniques, and probably design touches on projects in sectors I am interested in. My way of showing my passions.</p>
+      <p id="my-story">If you know me you already know that I love to learn and study. If you don't, my name is Malvina (she/her), and this is my personal resume website. My main focus on this webpage is to showcase my progress in learning and further developing full stack techniques, and probably design touches on projects in sectors I am interested in. My way of showing my passions.</p>
      </section>
-     <section>
+     <section id="my-work__content" class="my-work__content">
       <h2>my work</h2>
-      <p id="content__portfolio">Web development is not only just a new passion for me. 
-        My goal is to develop a career in software engineering and be one step closer to creating and defining a 
-        product that can positively change and/or affect the life of a large community.</p>     
-      <section class="portfolio__images">
-        <a href="https://malvinah.github.io/Horiseon-Marketing-Solutions/" target="_blank"><img id="horiseon" src="./asset/img/horiseon.png" alt="temporary image for my portfolio"></a>
-        <a href="https://malvinah.github.io/CSS-Snippet-Cheatsheet/" target="_blank"><img id="CSSsnippet" src="./asset/img/CSSsnippetCheatsheet.png" alt="temporary image for my portfolio"></a>
+      <p id="my-work__paragraph">Web development is not only just a new passion for me. My goal is to develop a career in software engineering and be one step closer to creating and defining a product that can positively change and/or affect the life of a large community.</p>     
+      <figure class="my-work__projects">
         <a href="https://malvinah.com/" target="_blank"><img id="malvinaH" src="./asset/img/malvinah.png" alt="temporary image for my portfolio"></a>
-    </section>
-    </section>
-     <section id="contact">
+        <figcaption>malvinaH</figcaption>
+        <a href="https://malvinah.github.io/Horiseon-Marketing-Solutions/" target="_blank"><img id="horiseon" src="./asset/img/horiseon.png" alt="temporary image for my portfolio"></a>
+        <figcaption>Horiseon</figcaption>
+        <a href="https://malvinah.github.io/CSS-Snippet-Cheatsheet/" target="_blank"><img id="CSSsnippet" src="./asset/img/CSSsnippetCheatsheet.png" alt="temporary image for my portfolio"></a>
+        <figcaption>CSS Snippet Cheatsheet</figcaption>
+      </figure>
+     </section>
+<!-- contact section -->
+     <section id="contact__content">
       <h2>let's connect</h2>
-      <p id="content__contact">If you either have an opportunity to offer and boost my goals, or just think I can be of some help with your projects, <a class="main-footer__email" href="mailto:hasamalvina24@gmail.com">let’s get in touch!</a></p>
-      <section class="form">
-        <form>
-          <label for="name">you are:</label>
-          <input id="name" type="text" name="fullName" placeholder="Enter your name">
-          <label for="email">your email is:</label>
-          <input id="email" type="text" name="email" placeholder="Enter your email">
-          <button type="submit">Submit</button>
-        </form>
+      <p id="contact__paragraph">If you either have an opportunity to offer and boost my goals, or just think I can be of some help with your projects, <a class="main-footer__email" href="mailto:hasamalvina24@gmail.com">let’s get in touch!</a></p>
     </main>
+
     <!-- footer -->
     <footer>
-      © 2022 My New Website Production
+      <h3>© 2022 My New Website Production</h3>
     </footer>
+    
   </body>
 
 </html>
