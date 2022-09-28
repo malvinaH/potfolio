@@ -100,6 +100,19 @@ ul li {
     padding: 5px;
 }
 
+figure {
+    border: thin var(--hdrs-clr) solid;
+    border-radius: 10%;
+    padding: 5px;
+    margin: auto;
+}
+
+figcaption {
+    color: black;
+    font: italic medium  sans-serif;
+    text-align: center;
+}
+
 #malvinaH {
     width: 80%;
     height: auto;
@@ -110,7 +123,7 @@ ul li {
 }
  
 #CSSsnippet {
-    width: 30%;
+    width: 20%;
     height: 100px;
 }
 
@@ -134,6 +147,17 @@ footer {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
+    }
+    
+    figure {
+    border: thick var(--hdrs-clr) dotted;
+    display: flex;
+    flex-flow: column;
+    max-width: 220px;
+    }
+
+    .malvinaH {
+        max-width: 80%;
     }
     
     footer {
