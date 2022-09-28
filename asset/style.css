@@ -14,17 +14,16 @@
 }
 
 body {
-    padding-top: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 50px;
     background-color: var(--main-clr);
+    line-height: 1.5;
 }
 
-h1 {
-    margin: 20px 0;
-    color: var(--hdrs-clr)
-}
-
+h1,
 h2 {
-    color: var(--hdrs-clr); 
+    margin: 0.2rem 0;
+    color: var(--hdrs-clr)
 }
 
 p {
@@ -32,7 +31,6 @@ p {
 }
 
 header {
-    display: inline;
     position: fixed;
     top: 0;
     left: 0;
@@ -40,9 +38,10 @@ header {
 }
 
 .navigation {
-    padding: 25px;
-    text-align: right;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    text-align: center;
     background-color: var(--bckgrnd-clr);
     color: var(--main-clr);
 }
@@ -51,8 +50,21 @@ ul li {
     display: inline;
 }
 
-main {
+.header nav ul {
+    list-style-type: none;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
     text-align: center;
+    margin: 5px;
+    padding: 10px;
+}
+
+.name {
+    margin: 10px 0;
+    padding: 5px;
 }
 
 .info__img {
@@ -62,12 +74,35 @@ main {
     margin: auto;
 }
 
-.header nav ul {
-    list-style-type: none;
+/* section {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+} */
+.my-work__content{
+    margin: 20px;
 }
 
-section {
-    padding: 10px;
+.my-work__projects{
+    margin: 5px;;
+}
+
+#my-story, 
+#my-work__paragraph,
+#contact__paragraph {
+    text-align: left;
+}
+
+.malvinaH,
+.horiseon,
+.CSS__snippet-cheatsheet {
+    margin: 5px;
+    padding: 5px;
+}
+
+#malvinaH {
+    width: 80%;
+    height: auto;
 }
 
 #horiseon {
@@ -76,29 +111,33 @@ section {
  
 #CSSsnippet {
     width: 30%;
-    height: auto;
-}
-
-#malvinaH {
-    width: 30%;
-    height: auto;
+    height: 100px;
 }
 
 footer {
-    padding: 10px;
+    font-size: 8px;
+    padding: 2px;
     background: var(--bckgrnd-clr);
     color: var(--main-clr);
     text-align: center;
 }
 
-/* using a mobile-first approach, use `min-width` values going from narrow -> wide for a responsive design */
+/* using min-width for responsive design startig with mobile first approach */
 @media screen and (min-width: 768px) {
-    /* on tablets, set columns to only be 50% of the width and not grow */
-    .card-column {
-      flex: 0 0 50%;
-      max-width: 50%;
+   
+    .navigation {
+        display: flex;
+        justify-content: end;
     }
-  
+
+    .my-work__projects {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+
+/*   
     /* select the last child to grow to full width if it has space to grow */
     .card-column:last-child {
       flex-grow: 1;
@@ -107,12 +146,12 @@ footer {
   
   /* media query for larger screens */
   @media screen and (min-width: 992px) {
-    header {
+    /* header {
       width: 75%;
-    }
+    } */
   
     .card-column {
       flex: 0 0 33.333%;
       max-width: 33.333%;
     }
-  }
+  } */
