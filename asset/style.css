@@ -136,22 +136,18 @@ footer {
         flex-wrap: wrap;
     }
     
-
-/*   
-    /* select the last child to grow to full width if it has space to grow */
-    .card-column:last-child {
-      flex-grow: 1;
+    footer {
+        font-size: 1rem;
     }
+  
+    /* select the last child to grow to full width if it has space to grow */
+    /* .card-column:last-child {
+      flex-grow: 1;
+    } */
   }
   
   /* media query for larger screens */
   @media screen and (min-width: 992px) {
     /* header {
       width: 75%;
-    } */
-  
-    .card-column {
-      flex: 0 0 33.333%;
-      max-width: 33.333%;
     }
-  } */
