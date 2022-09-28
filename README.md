@@ -9,7 +9,7 @@ https://malvinah.github.io/potfolio-project/
 ## Screenshot
 
 ![First half of the webpage](./asset/img/portfolio-project1.png?raw=true "Malvina's webpage 1")
-![Second half of the webpage](./asset/img/portfolio-project2?raw=true "Malvina's webpage 2")
+![Second half of the webpage](./asset/img/portfolio-project2.png?raw=true "Malvina's webpage 2")
 
  
 ## Licence
