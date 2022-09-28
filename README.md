@@ -8,8 +8,8 @@ https://malvinah.github.io/potfolio-project/
 
 ## Screenshot
 
-![First half of the webpage](./assets/images/portfolio-project1.png "Malvina's webpage 1")
-![Second half of the webpage](./assets/images/portfolio-project2 "Malvina's webpage 2")
+![First half of the webpage](./assets/img/portfolio-project1.png "Malvina's webpage 1")
+![Second half of the webpage](./assets/img/portfolio-project2 "Malvina's webpage 2")
 
  
 ## Licence
