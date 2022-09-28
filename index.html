@@ -13,48 +13,62 @@
     <header>
       <nav class="navigation">
         <ul class="nav__menu">
-          <li><a href="#my-work__content">portfolio</a></li>
-          <li><a href="./asset/malvina-hasa_first-draft_resume.pdf" target="_blank">resume</a></li>
-          <li><a href="#my-story__content">my story</a></li>
-          <li><a href="#contact__content">contact</a></li>
+          <li class="item-1"><a href="#my-work__content">portfolio</a></li>
+          <li class="item-2"><a href="./asset/malvina-hasa_first-draft_resume.pdf" target="_blank">resume</a></li>
+          <li class="item-3"><a href="#my-story__content">my story</a></li>
+          <li class="item-4"><a href="#contact__content">contact</a></li>
         </ul>
       </nav>
     </header>
 
 <!-- main content with titled images linked to deployed applications -->
-    <main>   
+    <main class="content">   
      <section class="info__content">
-      <h1 class="header">Malvina Hasa</h1>
+      <h1 class="name">Malvina Hasa</h1>
       <img class="info__img" src="./asset/img/resumeimage.JPG" alt="personal portrait">
       <p class="greetings">hey...</p>
      </section>
      <section id="my-story__content" class="my-story__content">
       <h2>my story</h2>
-      <p id="my-story">If you know me you already know that I love to learn and study. If you don't, my name is Malvina (she/her), and this is my personal resume website. My main focus on this webpage is to showcase my progress in learning and further developing full stack techniques, and probably design touches on projects in sectors I am interested in. My way of showing my passions.</p>
+      <p id="my-story">If you know me you already know that I love to learn and study. If you don't, my name is Malvina (she/her), 
+        and this is my personal resume website. My main focus on this webpage is to showcase my progress in learning and further 
+        developing full stack techniques, and design ideas on projects in sectors I am interested in. My way of showing my passions.</p>
      </section>
      <section id="my-work__content" class="my-work__content">
       <h2>my work</h2>
-      <p id="my-work__paragraph">Web development is not only just a new passion for me. My goal is to develop a career in software engineering and be one step closer to creating and defining a product that can positively change and/or affect the life of a large community.</p>     
-      <figure class="my-work__projects">
-        <a href="https://malvinah.com/" target="_blank"><img id="malvinaH" src="./asset/img/malvinah.png" alt="temporary image for my portfolio"></a>
-        <figcaption>malvinaH</figcaption>
-        <a href="https://malvinah.github.io/Horiseon-Marketing-Solutions/" target="_blank"><img id="horiseon" src="./asset/img/horiseon.png" alt="temporary image for my portfolio"></a>
-        <figcaption>Horiseon</figcaption>
-        <a href="https://malvinah.github.io/CSS-Snippet-Cheatsheet/" target="_blank"><img id="CSSsnippet" src="./asset/img/CSSsnippetCheatsheet.png" alt="temporary image for my portfolio"></a>
-        <figcaption>CSS Snippet Cheatsheet</figcaption>
-      </figure>
+      <p id="my-work__paragraph">Web development is not only just a new passion for me. My goal is to develop a career in software 
+        engineering and be one step closer to creating and defining a product that can positively change and/or affect the life of 
+        a large community.</p>     
+      <div class="my-work__projects">
+        <figure class="malvinaH">
+          <a href="https://malvinah.com/" target="_blank">
+          <img id="malvinaH" src="./asset/img/malvinah.png" alt="temporary image for my portfolio"></a>
+          <figcaption>malvinaH</figcaption>
+        </figure>
+        <figure class="horiseon">
+           <a href="https://malvinah.github.io/Horiseon-Marketing-Solutions/" target="_blank">
+           <img id="horiseon" src="./asset/img/horiseon.png" alt="temporary image for my portfolio"></a>
+           <figcaption>Horiseon</figcaption>
+         </figure>
+         <figure class="css__snippet-cheatsheet">
+          <a href="https://malvinah.github.io/CSS-Snippet-Cheatsheet/" target="_blank">
+          <img id="CSSsnippet" src="./asset/img/CSSsnippetCheatsheet.png" alt="temporary image for my portfolio"></a>
+          <figcaption>CSS Snippet Cheatsheet</figcaption>
+         </figure>
+        </div>
      </section>
 <!-- contact section -->
      <section id="contact__content">
       <h2>let's connect</h2>
-      <p id="contact__paragraph">If you either have an opportunity to offer and boost my goals, or just think I can be of some help with your projects, <a class="main-footer__email" href="mailto:hasamalvina24@gmail.com">let’s get in touch!</a></p>
+      <p id="contact__paragraph">If you either have an opportunity to offer and boost my goals, or just think I can be of some help 
+        with your projects, <a class="main-footer__email" href="mailto:hasamalvina24@gmail.com">let’s get in touch!</a></p>
     </main>
 
     <!-- footer -->
     <footer>
       <h3>© 2022 My New Website Production</h3>
     </footer>
-    
+
   </body>
 
 </html>
