@@ -95,7 +95,8 @@ ul li {
 
 .malvinaH,
 .horiseon,
-.CSS__snippet-cheatsheet {
+.CSS__snippet-cheatsheet
+.marvel__for-dummies {
     margin: 5px;
     padding: 5px;
 }
@@ -123,6 +124,11 @@ figcaption {
 }
  
 #CSSsnippet {
+    width: 20%;
+    height: 100px;
+}
+
+#marvel__for-dummies {
     width: 20%;
     height: 100px;
 }
