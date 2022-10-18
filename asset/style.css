@@ -1,3 +1,4 @@
+/* variables created for easier future maintenance  */
 :root {
     --main-clr: #E6E6FA;
     --hdrs-clr: #5f27cd;
@@ -8,26 +9,24 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-
-    /* wireframing for me */
-    /* border : red solid 1px; */
 }
 
+/* body */
 body {
     font-family: Arial, Helvetica, sans-serif;
-    padding-top: 50px;
+    padding-top: 3em;
     background-color: var(--main-clr);
     line-height: 1.5;
 }
 
 h1,
 h2 {
-    margin: 0.2rem 0;
+    margin: 0.2em 0;
     color: var(--hdrs-clr)
 }
 
 p {
-    margin: 20px 0;
+    margin: 1.25em 0;
 }
 
 header {
@@ -40,7 +39,7 @@ header {
 .navigation {
     display: flex;
     justify-content: center;
-    padding: 15px;
+    padding: 1em;
     text-align: center;
     background-color: var(--bckgrnd-clr);
     color: var(--main-clr);
@@ -54,17 +53,18 @@ ul li {
     list-style-type: none;
 }
 
+/* main content */
 .content {
     display: flex;
     flex-direction: column;
     text-align: center;
-    margin: 5px;
-    padding: 10px;
+    margin: 0.3em;
+    padding: 0.625em;
 }
 
 .name {
-    margin: 10px 0;
-    padding: 5px;
+    margin: 0.625em 0;
+    padding: 0.3em;
 }
 
 .info__img {
@@ -74,17 +74,13 @@ ul li {
     margin: auto;
 }
 
-/* section {
-    display: flex;
-    flex-direction: column;
-    padding: 5px;
-} */
+/* porfolio content - projects */
 .my-work__content{
-    margin: 20px;
+    margin: 1.25em;
 }
 
 .my-work__projects{
-    margin: 5px;;
+    margin: 0.3em;
 }
 
 #my-story, 
@@ -104,7 +100,7 @@ ul li {
 figure {
     border: thin var(--hdrs-clr) solid;
     border-radius: 10%;
-    padding: 5px;
+    padding: 0.3em;
     margin: auto;
 }
 
@@ -114,34 +110,39 @@ figcaption {
     text-align: center;
 }
 
+/* Set the first image to appear larger in size than the others */
 #malvinaH {
     width: 80%;
     height: auto;
 }
 
 #horiseon {
-    width: 30%;
+    width: 60%;
 }
  
 #CSSsnippet {
-    width: 20%;
-    height: 100px;
+    width: 40%;
+    height: 6.25em;
 }
 
+<<<<<<< HEAD
 #marvel__for-dummies {
     width: 20%;
     height: 100px;
 }
 
+=======
+/* footer */
+>>>>>>> refs/remotes/origin/main
 footer {
-    font-size: 8px;
-    padding: 2px;
+    font-size: 0.5;
+    padding: 0.125;
     background: var(--bckgrnd-clr);
     color: var(--main-clr);
     text-align: center;
 }
 
-/* using min-width for responsive design startig with mobile first approach */
+/* using min-width for responsive layout startig with mobile first approach and addpating to all viewports*/
 @media screen and (min-width: 768px) {
    
     .navigation {
@@ -151,33 +152,38 @@ footer {
 
     .my-work__projects {
         display: flex;
-        flex-direction: row;
         flex-wrap: wrap;
     }
     
-    figure {
-    border: thick var(--hdrs-clr) dotted;
-    display: flex;
-    flex-flow: column;
-    max-width: 220px;
+        figure {
+        border: thick var(--hdrs-clr) dotted;
+        display: flex;
+        flex-flow: column;
+        flex-grow: 1;
     }
 
     .malvinaH {
-        max-width: 80%;
+        max-width: auto;
     }
     
     footer {
         font-size: 1rem;
     }
-  
-    /* select the last child to grow to full width if it has space to grow */
-    /* .card-column:last-child {
-      flex-grow: 1;
-    } */
   }
   
   /* media query for larger screens */
   @media screen and (min-width: 992px) {
-    /* header {
-      width: 75%;
+
+    figure {
+        border: thick var(--hdrs-clr) solid;
     }
+
+    .malvinaH {
+        max-width: 50%;
+    }
+
+    .horiseon,
+    .CSS__snippet-cheatsheet {
+        max-width: 30%;
+    }
+  }
