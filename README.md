@@ -2,14 +2,13 @@
 
 This project is built to display my porfolio and information about myself. It includes links to resume and deployed projects as well as a contact section. Technologies used: HTML, CSS. On Marvel for Dummies (one of the projects) I used: JavaScript, JQuery, Figma, Bulma, Google fonts.
 
-<<<<<<< HEAD
 ## Website
 
 
 ## Screenshot
 
 ## Licence
-=======
+
 ## Website :
 
 https://malvinah.github.io/potfolio-project/
