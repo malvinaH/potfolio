@@ -4,7 +4,7 @@
     --hdrs-clr: #5f27cd;
     --bckgrnd-clr: #a29bfe;
     }
-    
+
 *{
     box-sizing: border-box;
     padding: 0;
@@ -83,7 +83,7 @@ ul li {
     margin: 0.3em;
 }
 
-#my-story, 
+#my-story,
 #my-work__paragraph,
 #contact__paragraph {
     text-align: left;
@@ -91,8 +91,9 @@ ul li {
 
 .malvinaH,
 .horiseon,
-.CSS__snippet-cheatsheet
-.marvel__for-dummies {
+.CSS__snippet-cheatsheet,
+.marvel__for-dummies,
+.socialize {
     margin: 5px;
     padding: 5px;
 }
@@ -119,7 +120,7 @@ figcaption {
 #horiseon {
     width: 60%;
 }
- 
+
 #CSSsnippet {
     width: 40%;
     height: 6.25em;
@@ -128,6 +129,11 @@ figcaption {
 #marvel__for-dummies {
     width: 20%;
     height: 100px;
+}
+
+#socialize {
+    width: 20%;
+    height:auto
 }
 
 footer {
@@ -140,7 +146,7 @@ footer {
 
 /* using min-width for responsive layout startig with mobile first approach and addpating to all viewports*/
 @media screen and (min-width: 768px) {
-   
+
     .navigation {
         display: flex;
         justify-content: end;
@@ -150,7 +156,7 @@ footer {
         display: flex;
         flex-wrap: wrap;
     }
-    
+
         figure {
         border: thick var(--hdrs-clr) dotted;
         display: flex;
@@ -161,12 +167,12 @@ footer {
     .malvinaH {
         max-width: auto;
     }
-    
+
     footer {
         font-size: 1rem;
     }
   }
-  
+
   /* media query for larger screens */
   @media screen and (min-width: 992px) {
 
