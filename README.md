@@ -11,7 +11,8 @@ This project is built to display my porfolio and information about myself. It in
 
 ## Website :
 
-https://malvinah.github.io/potfolio-project/
+https://malvinah.github.io/potfolio/
+
 
 ## Screenshot
 
