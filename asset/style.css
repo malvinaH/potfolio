@@ -93,7 +93,8 @@ ul li {
 .horiseon,
 .CSS__snippet-cheatsheet,
 .marvel__for-dummies,
-.socialize {
+.socialize
+.gift__guide {
     margin: 5px;
     padding: 5px;
 }
@@ -132,6 +133,11 @@ figcaption {
 }
 
 #socialize {
+    width: 20%;
+    height:auto
+}
+
+#giftguide {
     width: 20%;
     height:auto
 }
